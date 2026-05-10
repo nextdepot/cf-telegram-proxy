@@ -70,3 +70,15 @@ Returns a 200 OK with `{"status":"ok"}`:
 ```
 https://{YOUR_WORKER_URL}/health
 ```
+
+## 🗺️ Roadmap & Upcoming Improvements
+
+We're building this in the open! Here are the next steps we're planning to tackle:
+
+- [ ] **Modernize the codebase**: Migrate to the latest Cloudflare Worker syntax.
+- [ ] **Better Config Management**: Stop hardcoding values and switch to environment variables.
+- [ ] **Local Dev Experience**: Make it easy to run and test the proxy on your machine.
+- [ ] **One-Click Magic**: Add a "Deploy to Cloudflare" button for instant setup.
+- [ ] **Auto-Deploy**: Set up a CI pipeline to handle deployments whenever we push to `main`.
+- [ ] **Security Hardening**: Look into adding security headers for the backward flow to keep things extra safe.
+
